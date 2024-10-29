@@ -1,0 +1,54 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.intro-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.intro-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1200px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0, 90%);
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: -90px;
+}
+
+.intro-card h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 48px;
+  color: #F8D43E;
+}
+
+.intro-card p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 20px;
+  width: 64ch;
+}
+
+@media (max-width: 1200px) {
+  .intro-img {
+    height: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro-img {
+    height: 400px;
+  }
+}

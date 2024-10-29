@@ -5,3 +5,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+body {
+  max-width: 100wh;
+  max-height: 100vh;
+}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 120px;
-  background-color: #fbfbfb;
+  background-color: #0A0A0A;
   align-items: center;
   margin: 0 auto;
 }
@@ -16,7 +16,7 @@
 
 .header-menu a {
   text-decoration: none;
-  color: #000;
+  color: #fbfbfb;
   transition: 0.5s;
   position: relative;
   transition: 0.3s;
@@ -29,7 +29,7 @@
 
 
 .header-menu a:hover {
-  color: #222;
+  color: #F8D43E;
 }
 
 .header-menu a:hover::before {
@@ -59,10 +59,10 @@
   }
   .header-menu a {
     padding: 8px 16px;
-    background: #fcfcfc;
+    background: #060606;
     border-radius: 4px;
     transition: 0.5s;
-    border: 2px solid #fafafa;
+    border: 2px solid #050505;
   }
   .header img {
     display: block;

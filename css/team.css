@@ -1,7 +1,21 @@
 .team {
-  background-color: #0A0A0A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #0B0B0B;
   color: #fff;
   padding: 120px;
+  position: relative;
+}
+
+.team::after {
+  content: '';
+  width: 16px;
+  height: 4px;
+  background-color: #F8D43E;
+  bottom: -2px;
+  position: absolute;
 }
 
 .team-container {
@@ -11,7 +25,6 @@
   gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 64px;
   justify-content: center;
   text-align: center;
 }
@@ -44,8 +57,14 @@
   gap: 16px;
   max-width: 400px;
   padding: 32px;
-  background-color: #000;
+  background-color: #050505;
+  border-bottom: 2px solid transparent;
   border-radius: 8px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  border-bottom: solid 2px #F8D43E;
 }
 
 .profile-pic {

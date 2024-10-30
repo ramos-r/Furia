@@ -6,6 +6,15 @@
   position: relative;
 }
 
+.intro::after {
+  content: '';
+  width: 16px;
+  height: 4px;
+  background-color: #F8D43E;
+  bottom: -2px;
+  position: absolute;
+}
+
 .intro-img {
   width: 100%;
   height: 680px;

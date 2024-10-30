@@ -33,7 +33,6 @@
   padding: 32px;
   background-color: #000;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .profile-pic {
@@ -43,6 +42,7 @@
 }
 
 .span {
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
 }
 
@@ -71,9 +71,59 @@
   margin-right: 12px;
 }
 
+@media (max-width: 1200px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: fit-content;
+    gap: 16px;
+  }
+  .card p {
+    font-size: 1.75rem;
+  }
+  .profile-pic {
+    width: 100%;
+  }
+}
+
 @media (max-width: 800px) {
   .team-cards {
     grid-template-columns: 1fr;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 16px;
+    gap: 16px;
+  }
+  .card p {
+    font-size: 1.5rem;
+    padding: 8px;
+    margin: 0px;
+  }
+  .span, .role {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 0px;
+  }
+  .span span {
+    line-height: 12px;
+  }
+  .profile-pic {
+    width: 100%;
+  }
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social {
+    margin-top: 12px;
   }
   /* arrumar responsividade dos cards */
 }

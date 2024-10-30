@@ -67,10 +67,14 @@
   margin-bottom: 24px;
 }
 
+.social {
+  display: flex;
+  gap: 24px;
+}
+
 .social img {
   width: 24px;
   height: 24px;
-  margin-right: 12px;
 }
 
 @media (max-width: 1400px) {

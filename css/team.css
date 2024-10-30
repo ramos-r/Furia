@@ -11,28 +11,39 @@
   gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 64px;
   justify-content: center;
   text-align: center;
 }
 
+.team-container-title h2 {
+  line-height: 32px;
+}
+
+.game-name {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.90rem;
+  font-weight: 700;
+  line-height: 16px;
+  color: #ccc;
+}
+
 .team-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   max-width: 1200px;
-  justify-content: center;
-  align-items: start;
-  place-items: center;
-  text-align: start;
 }
 
 .card {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  max-width: 600px;
-  padding: 40px 80px 40px 48px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+  max-width: 400px;
+  padding: 32px;
   background-color: #000;
   border-radius: 8px;
 }
@@ -43,33 +54,36 @@
   border-radius: 8px;
 }
 
-.span {
-  font-family: 'Poppins', sans-serif;
-  padding-bottom: 20px;
-}
-
-.span span {
-  display: block;
-}
-
 .role {
-  font-size: 1.125rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 16px;
   font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
 }
 
-.game-name {
-  color: #ccc;
+.name {
+  margin-bottom: 12px;
 }
 
-.card p {
+.name p {
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 24px;
+}
+
+.name span{
+  font-family: 'Nunito',sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ccc;
 }
 
 .social {
   display: flex;
   gap: 24px;
+  cursor: pointer;
 }
 
 .social img {
@@ -83,7 +97,7 @@
     display: flex;
   }
   .team-container {
-    margin-top: 24px;
+    margin-top: 64px;
   }
   .team-cards{
     grid-template-columns: repeat(3, 1fr);
@@ -94,21 +108,20 @@
     align-items: center;
     justify-content: center;
     width: fit-content;
+    text-align: center;
     padding: 16px;
     gap: 16px;
   }
-  .card p {
+  .name p {
     font-size: 1.5rem;
-    padding: 8px;
     margin: 0px;
   }
-  .span, .role {
+  .role {
     text-align: center;
     font-size: 0.75rem;
     padding: 0px;
-  }
-  .span span {
     line-height: 12px;
+    color: #F8D43E;
   }
   .profile-pic {
     max-width: 240px;
@@ -125,8 +138,18 @@
 }
 
 @media (max-width: 800px) {
-  .card p {
+  .team {
+    padding: 64px;
+  }
+  .team-container {
+    margin: 0 auto;
+  }
+  .name p {
     font-size: 1.2rem;
+  }
+  .name span {
+    font-size: 0.8rem;
+    width: 60ch;
   }
   .team-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -138,7 +161,7 @@
 }
 
 @media (max-width: 600px) {
-  .card p {
+  .name p {
     font-size: 1.5rem;
   }
   .team-cards {
@@ -146,5 +169,14 @@
   }
   .profile-pic {
     width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .profile-pic {
+    display: none;
+  }
+  .team-container {
+    margin-top: 40px;
   }
 }

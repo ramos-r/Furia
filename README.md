@@ -2,8 +2,8 @@ Landing Page para o Programa de Estágio Inclusivo de Verão: "Futuro em Jogo" p
 
 Links:
 
-• Futuro em Jogo - Furia
+• Futuro em Jogo - Furia:
 https://estagio.furia.gg
 
-• Wireframe Figma
+• Wireframe Figma:
 https://www.figma.com/design/aPr2ssmZNbIkTDE9r8dbHl/Furia?node-id=0-1&t=1rYiVOrFUNuNxcDY-1

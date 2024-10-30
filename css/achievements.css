@@ -73,3 +73,10 @@
     padding-bottom: 24px;
   }
 }
+
+@media (max-width: 600px) {
+  .achievements-card {
+    padding: 32px;
+    margin: 8px;
+  }
+}

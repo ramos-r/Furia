@@ -39,6 +39,16 @@
   border-radius: 4px;
 }
 
+@media (max-width: 1200px) {
+  .achievements {
+    padding: 40px;
+  }
+  .achievements-card {
+    width: 800px;
+    padding: 20px 64px;
+  }
+}
+
 @media (max-width: 800px) {
   .achievements{
     padding: 60px 0px;

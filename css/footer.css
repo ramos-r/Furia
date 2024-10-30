@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  gap: 16px;
+}
+
+.footer span {
+  color: #FFF;
+  font-family: 'Nunito', sans-serif;
+}

@@ -122,11 +122,21 @@
 
 @media (max-width: 800px) {
   .card p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .team-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social img{
+    width: 16px;
+    height: 16px;
   }
 }
 
 @media (max-width: 600px) {
+  .card p {
+    font-size: 1.5rem;
+  }
   .team-cards {
     grid-template-columns: 1fr;
   }
